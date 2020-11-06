@@ -1,0 +1,63 @@
+
+			Policy
+priority 
+
+Leaking of any product details will be considered as insider espionage and eployee will be .
+
+The project details should be provided to teams on "need-know-basis"
+
+The authority of information should not be centralized.
+
+Centralized database must not be created for any department.
+
+continuos employee evaluation must be done.
+
+Portable media should not be allowed in the premise of organization.
+
+documents which are not in use should be shreaded and not be taken out.
+
+keep logs and backup data, and do regular scanning of machine each day, the scanning logs must be stored.
+
+Periodic chaning of password, password should be complex
+
+Log documentation backup.
+
+Every changes in project files should be commited to the project repositories and  the files should be check, scanned and further published on the network database.
+
+
+-----Incedence response------
+
+specify the situation 
+
+Detection of the components of network which has been compromised should be done
+
+What was the activity being done before the incidence happened
+
+Identify if the threat is internal or external and make list of security incidents 
+
+Legal action against the internal threat should be taken according to company policy and domestic and international law
+
+the cost of the data breach should be calculated 
+
+Identify the resposible people 
+
+The incidence should be communicated to everyone
+
+plan recovery 
+
+Log the icidence first and immediatly reported using report tool to IT team.
+
+-----data breaches -----
+
+
+----Scurity Incidence---
+
+example of public security incidence -  not incidence information security incidence
+
+
+information security incidence-
+DOS
+Compromised user account
+
+The suppliers should log the the ingredients when supplied and 
+
