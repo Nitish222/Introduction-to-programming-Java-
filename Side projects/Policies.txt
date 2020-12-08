@@ -61,3 +61,24 @@ Compromised user account
 
 The suppliers should log the the ingredients when supplied and 
 
+
+
+---------- forensics ------
+
+First i will assess the incidence site by looking at the evidence present, and documenting them by touching the evidence as little as possible.
+
+If there is important devices whcih could hold some credible evidence like a drive or mobile phones, they should be taken offline immediatly to prevent the tampering; however, in certain circumstances machine is left online to trace down an active attack.
+
+then a forensically valid copy of it should be made, this could be done with dd command of a linux based system.
+
+One important rule to remember is to document everything
+The documentation must include the cost calculation - 
+Labor cost spent in response and recovery.  
+If equipment were damaged, the cost of that equipment.
+If data were lost or stolen, what was the value of that what was the value of that data? data? 
+How much did it cost to obtain that data and how much will it cost to reconstruct it?
+Any lost revenue, including losses due to down time, having to give customers credit due to inconvenience, or any other way in which revenue was lost.
+
+source - saghafi,L.(2020).Principles of Information Systems Security (CIS 221).
+
+

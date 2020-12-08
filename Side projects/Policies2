@@ -1,0 +1,157 @@
+
+SDLC
+
+1- System planning -
+you only define if the new system is worth to create it, 
+input - user's information
+Output - System planning REPORT
+
+2- System Requirement. 
+You gather the information with 7 data gathering techniques 
+ Interview
+ Survey
+ Quistenaire
+ existing Forms
+ documentations
+ Observation
+ Input - System planning REPORT
+ output - system requirement REPORT.
+
+3- System Design
+ Create the specification of the new system.
+ Has 4 steps:
+    Input Design
+    Output Design
+    File and Database Design
+    Network Design
+
+Input - system requirement REPORT
+output - the System Design Specification.
+
+4- System Implementation
+In this phase write the code for our application and implement it.
+input - System Design Specification.
+output - Application we created.
+
+5- System maintenance
+It includes 
+    Testing
+    System Installation
+    post-installation evaluation
+
+Input - application 
+Output - training Report
+
+As for responsible software development, we need to consider SECURITY in every single phase and all steps of SDLC.
+
+source - saghafi,L.(2020).Principles of Information Systems Security (CIS 221).
+
+
+ 
+
+---------- incidence response plan DDoS attack --------------------------------------
+
+Incident requirement-
+In Denial of service attack the network is flooded with alot of traffic and system resources are made unavailable. 
+Assessing the requirement -
+How long will the attack take to be resolved, giving an idea to IT team
+Having a understanding of company assets and the type of the DDoS attack weather it is SYN flood or ping of death etc.
+do the audit to indentify the network infrastructure and differentiating what is affected.
+
+Define what a security incident is- 
+
+In our case it is a denial of service attack, this should be communicated to the team and logged
+Indetifying the flow of traffic on the network is there any suspicious behaviour, and what assets are affected by it.
+
+Name responsible people 
+Responsible people are thos who was administrating the network during, post and prior to the attack i.e. our network administrator, and other employees in the department
+
+Including a communication plan
+
+Having a communication plan and a proper documentation can reduce the cost of incident, this could reduce the labour cost.
+
+Make a shortlist of security incidents
+
+Having a shortlist of servers and other assets affected and previous security incident can help us backtract the threat
+
+Having a clear identification of a ddos attack that is differentiating the suspecious data traffic to server 
+
+This also include identifying what kind of attack patterns on which protocols were used and was on which layer that is network or application layer, this helps us to indentify the proper solution.
+
+having different options as solutions should be provided in like closing the connection to mitigate the DDOS attackfrom the servers TCP/IP connections, one could Have filters and firewalls to block traffic
+
+Planing the recovery scenarios 
+
+Calculate the cost of this incident and Everything should be logged throughout the process and maintianed as documentation
+In case of ddos attack a backup server should be maintianed to handle the DDoS load
+Having alternate platform to support your users with services during ddos attacks should be implemented.
+
+Reporting to proper authorities 
+
+In case of a Denial of service attack the network administrative and IT support team should be immediatly notified with logs information
+
+Improving Incidence response paln based on previous incidents.
+Relate it to if the company has been affected by DOS attack previously
+Formulate the solution after identifying the weak link
+implement it and report the incident for future reference 
+
+source - saghafi,L.(2020).Principles of Information Systems Security (CIS 221).
+
+-----------------------------------employee management--------------------------------------------
+
+security prior to employment 
+Before Hiring an employment contract should be signed describing company policy and control processes.
+Background Check for employees must be done on the following basis:
+Their past work experience 
+Letter of Recommendation (if Provided)
+Employe references 
+Academics
+Criminal History of the applicant
+
+security during employment 
+Managers should communicate and make clear the company policies to employess, so that Every employee must be made aware of the company policies.
+Employees are strictly encouraged to use the devices provided by the company.
+The project details should be provided to teams on need-know-basis.
+The employee must not share private information such as a professional password with anyone.
+Paper documents which are not in use should be shreaded and not be taken out and thrown in company dustbin only after shreading. 
+Annual employee evaluations should be done by the department managers.
+Personal storage mediums are not allowed on the premises of an organization without a necessary cause.
+Leaking of any product details or company strategies will be considered as insider espionage and the wrong doer will face harsh consequences.
+If not presently using a system , one must shut it down. This include using printers , desktops, and any other device. 
+Regular checks on the backed-up data and logs must be maintained by the employee.
+Every change in project files should be committed to the project repositories and the files should be check, scanned, and further published on the network database.
+Any kind of weapon is not allowed inside the organization premises.
+
+ security at the termination of employment
+
+At the time of termination the employee must not be allowed to access thier company system, if possible the termination should communicated through email.
+Every official company email accounts should be terminated prior to send the termination letter.
+If employee violates the industrial espionage agreements signed during the hiring a legal action should be taken
+
+post-employment security requirements
+
+Employee is not allowed to work in the same industry for the period of 2 months if he has held an privelledged position in the company and was active part of research and development team
+
+Any information leak will be considered as industrial espionage.
+
+source - saghafi,L.(2020).Principles of Information Systems Security (CIS 221).
+
+
+
+
+Title: Caesar Cipher
+   Description: This program takes in a plain text and produces a cipher of that text using the Caesar Cipher
+   Usage: Please enter the plain text you want to encrypt: defend
+          The ciphered text is with (key shift = 1): efgfoe
+          
+   How it work: Suppose Letter = a = 0, b=1, c=2, d=3, e=4
+                key = 1
+                ((int)Letter + key) mod 26 
+                    returns the ciphered letter as a number, cipherValue
+                    (char)cipherValue = '[some letter]'
+                                           
+                                           NOTE: ASCII 'a'=97, 'b'= 98, 'c'=99, 'd'=100, 'e'=101 
+
+
+
+Pfleeger, C. P., & Pfleeger, S. L. (2007). Security in computing. Upper Saddle River, NJ: Prentice Hall. 
