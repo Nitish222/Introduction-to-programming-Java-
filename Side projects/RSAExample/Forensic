@@ -1,0 +1,57 @@
+    The access to the data should be on the need to know basis
+    The background check of the personnel should be performed before hiring on basis of -
+        academic record
+        previous employer recommendation
+        criminal record
+    compulsion to do do daily scan on the worksations
+    compulsion to do backups of the documents and data
+    keep documents locked in safe place, without public reach
+    encrypt hard drives in case of portable computers
+
+
+
+FOrensic steps 
+
+1) copy the harddrive , donot want to make changes to the system , there are commands for doing so
+2) Document Everything , for example - today i recieved hardrive , then i used linux interface to copy hard drive etc.
+3) Computer must be offline, to prevent further tempering, however in certain circumtances we may have to go online
+4) Use application and forensic tools, show deleted files , show emails, scan certain strings from harddrive to crack the password.
+	
+	for example 
+	FTK 
+		IT is a investment
+	SIFT 
+		Open Source Forensic tool
+
+Chain Of Custody 
+
+	 iformation gathered from the crime scene and is used to create chain of custody 
+
+Taking Notes include - 
+	-- documentation of recovery location
+	-- THe time and date recovered or recieved 
+	-- Description of the item 
+	-- condition of the item
+
+computer was open it had a password , it was sleeping , or it was shutdown 
+
+
+if chain of custody is broken 
+
+	--  mislabeled , if left in car for days 
+	-- unreasonable amount of time
+	-- evidence falls into wrong hands
+
+
+Locard Principle
+
+Cost of loss -
+
+
+Cost of labor - spent in response and recovery
+
+equipment damage - 
+data were lost or stolen - for example americanexpress credit card user loses data then company will have to provide some kind of compensation
+
+
+Sleuth kit 
